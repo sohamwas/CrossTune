@@ -21,9 +21,9 @@ OMDB_API_KEY = "YOUR_API_KEY_HERE"  # Get free key (1000 requests/day)
 @st.cache_resource
 def load_models():
     try:
-        vectorizer = pickle.load(open('tfidf_vectorizer.pkl', 'rb'))
-        movies_df = pd.read_csv('movies_processed.csv')
-        tracks_df = pd.read_csv('tracks_processed.csv')
+        vectorizer = pickle.load(open('models/tfidf_vectorizer.pkl', 'rb'))
+        movies_df = pd.read_csv('data/movies_processed.csv')
+        tracks_df = pd.read_csv('data/tracks_processed.csv')
         
         # Pre-compute vectors
         movie_vectors = vectorizer.transform(movies_df['genres_expanded'])
@@ -249,3 +249,4 @@ st.markdown("""
     <p>Movie Data: MovieLens & OMDb | Music Data: Last.fm | Streaming: Spotify</p>
 </div>
 """, unsafe_allow_html=True)
+
