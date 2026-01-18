@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 # OMDb API setup (free, get key from http://www.omdbapi.com/apikey.aspx)
-OMDB_API_KEY = "YOUR_API_KEY_HERE"  # Get free key (1000 requests/day)
+OMDB_API_KEY = st.secrets("OMDB_API_KEY")  # Get free key (1000 requests/day)
 
 # Load models and data
 @st.cache_resource
@@ -249,4 +249,5 @@ st.markdown("""
     <p>Movie Data: MovieLens & OMDb | Music Data: Last.fm | Streaming: Spotify</p>
 </div>
 """, unsafe_allow_html=True)
+
 
