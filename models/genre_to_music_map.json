@@ -1,0 +1,105 @@
+{
+  "children": [
+    "love",
+    "country",
+    "american",
+    "cover"
+  ],
+  "animation": [
+    "soundtrack"
+  ],
+  "film-noir": [],
+  "comedy": [
+    "soundtrack",
+    "love",
+    "dance",
+    "indie",
+    "pop",
+    "rock",
+    "folk"
+  ],
+  "listed)": [],
+  "drama": [
+    "love",
+    "soundtrack",
+    "dance"
+  ],
+  "war": [
+    "country",
+    "american",
+    "british",
+    "german",
+    "russian",
+    "polish"
+  ],
+  "crime": [
+    "country"
+  ],
+  "documentary": [
+    "soundtrack"
+  ],
+  "western": [
+    "country",
+    "american",
+    "british",
+    "russian",
+    "french"
+  ],
+  "mystery": [
+    "unknown",
+    "love"
+  ],
+  "horror": [
+    "soundtrack",
+    "love",
+    "indie"
+  ],
+  "genres": [
+    "folk",
+    "pop",
+    "classical",
+    "punk",
+    "rap",
+    "indie",
+    "jazz",
+    "reggae",
+    "funk",
+    "techno"
+  ],
+  "fantasy": [
+    "soundtrack",
+    "love",
+    "soul"
+  ],
+  "(no": [],
+  "imax": [],
+  "adventure": [
+    "love"
+  ],
+  "action": [
+    "american",
+    "country",
+    "british"
+  ],
+  "romance": [
+    "love"
+  ],
+  "thriller": [
+    "soundtrack"
+  ],
+  "musical": [
+    "dance",
+    "folk",
+    "soundtrack",
+    "instrumental",
+    "pop",
+    "jazz",
+    "classical",
+    "piano",
+    "guitar",
+    "love"
+  ],
+  "sci-fi": [
+    "indie"
+  ]
+}
