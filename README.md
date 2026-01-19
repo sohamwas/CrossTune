@@ -70,7 +70,7 @@ Each recommended track includes:
 
 ## 🎥 Demo
 
-![demo/demo.mp4]
+https://github.com/user-attachments/assets/1b42099a-1445-4181-af97-4b5f32692c5c
 
 ---
 
